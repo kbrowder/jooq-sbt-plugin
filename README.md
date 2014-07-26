@@ -2,10 +2,11 @@ This project was origionally forked from https://github.com/sean8223/jooq-sbt-pl
 many thanks to Sean for all his hard work, I'm mostly just distributing said work.
 
 This is an SBT plugin that provides an interface to the JOOQ code generation tool
-(<http://www.jooq.org>). The plugin is compatible with SBT 0.11.3+ and Scala 2.9.1+.
+(<http://www.jooq.org>). The plugin is compatible with SBT 0.11.3+ and Scala 2.10.x
 
 The plugin is in the process of being released, and will be released in a few days as version *2.0*
 
+[![Build Status](https://travis-ci.org/kbrowder/jooq-sbt-plugin.svg?branch=release-2.0)](https://travis-ci.org/kbrowder/jooq-sbt-plugin)
 
 Quick Start
 ===========
@@ -133,6 +134,7 @@ To accomplish this:
    `jooq` scope as above.
 
 Refer to the SBT documentation for more thorough examples of multi-project build files.
+
 
 
 History
