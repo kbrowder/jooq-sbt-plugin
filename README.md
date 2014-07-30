@@ -6,7 +6,7 @@ This is an SBT plugin that provides an interface to the JOOQ code generation too
 
 The current released version is *2.0*
 
-[![Build Status](https://travis-ci.org/kbrowder/jooq-sbt-plugin.svg?branch=v2.0)](https://travis-ci.org/kbrowder/jooq-sbt-plugin)
+[![Build Status](https://travis-ci.org/kbrowder/jooq-sbt-plugin.svg?branch=master)](https://travis-ci.org/kbrowder/jooq-sbt-plugin)
 
 Quick Start
 ===========
