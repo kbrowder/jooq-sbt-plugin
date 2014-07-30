@@ -1,16 +1,19 @@
+This project was origionally forked from https://github.com/sean8223/jooq-sbt-plugin, 
+many thanks to Sean for all his hard work, I'm mostly just distributing said work.
+
 This is an SBT plugin that provides an interface to the JOOQ code generation tool
-(<http://www.jooq.org>). The plugin is compatible with SBT 0.11.3+ and Scala 2.9.1+.
+(<http://www.jooq.org>). The plugin is compatible with SBT 0.11.3+ and Scala 2.10.x
 
-The current version of the plugin is *1.4*
+The current released version is *2.0*
 
+[![Build Status](https://travis-ci.org/kbrowder/jooq-sbt-plugin.svg?branch=v2.0)](https://travis-ci.org/kbrowder/jooq-sbt-plugin)
 
 Quick Start
 ===========
 
 1. Add jooq-sbt-plugin to your `project/plugins.sbt`:
         
-        resolvers += "sean8223 Releases" at "https://github.com/sean8223/repository/raw/master/releases"
-        addSbtPlugin("sean8223" %% "jooq-sbt-plugin" % CURRENT_PLUGIN_VERSION) // see above
+        addSbtPlugin("me.kbrowder" %% "jooq-sbt-plugin" % CURRENT_PLUGIN_VERSION) // see above
 		
 2. In your `build.sbt`, do the following:
 
@@ -133,11 +136,8 @@ To accomplish this:
 Refer to the SBT documentation for more thorough examples of multi-project build files.
 
 
+
 History
 =======
 
-* 1.0: Initial release
-* 1.1: Fixed error in which `jooqOutputDirectory` was incorrectly being set to `sourceManaged` rather than `sourceManaged in Compile`
-* 1.2: Added `unmanagedJars in Compile` to the `managedClasspath` used by the plugin to facilitate use of proprietary drivers that might not be accessible via Ivy/Maven repos.
-* 1.3: Changed default JOOQ version to 3.2.1 (previous default was 2.6.1)
-* 1.4: Changed default JOOQ version to 3.3.1 (previous default was 3.2.1)
+* 2.0: First release of me.kbrowder.jooq-sbt-plugin, updated licenses and prepared sbt file for sonatype, added travis configs

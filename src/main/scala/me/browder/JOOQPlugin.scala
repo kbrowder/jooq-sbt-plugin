@@ -1,3 +1,4 @@
+// Copyright 2014 Kevin Browder
 // Copyright 2013 Sean Wellington
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
